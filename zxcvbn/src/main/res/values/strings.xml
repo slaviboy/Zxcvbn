@@ -1,0 +1,28 @@
+<resources>
+    <string name="feedback_extra_suggestions_addAnotherWord">Add another word or two. Uncommon words are better.</string>
+    <string name="feedback_default_suggestions_useFewWords">Use a few words, avoid common phrases.</string>
+    <string name="feedback_default_suggestions_noNeedSymbols">No need for symbols, digits, or uppercase letters.</string>
+    <string name="feedback_dictionary_warning_passwords_top10">This is a top-10 common password.</string>
+    <string name="feedback_dictionary_warning_passwords_top100">This is a top-100 common password.</string>
+    <string name="feedback_dictionary_warning_passwords_veryCommon">This is a very common password.</string>
+    <string name="feedback_dictionary_warning_passwords_similar">This is similar to a commonly used password.</string>
+    <string name="feedback_dictionary_warning_englishWikipedia_itself">A word by itself is easy to guess.</string>
+    <string name="feedback_dictionary_warning_etc_namesThemselves">Names and surnames by themselves are easy to guess.</string>
+    <string name="feedback_dictionary_warning_etc_namesCommon">Common names and surnames are easy to guess.</string>
+    <string name="feedback_dictionary_suggestions_capitalization">Capitalization doesn\'t help very much.</string>
+    <string name="feedback_dictionary_suggestions_allUppercase">All-uppercase is almost as easy to guess as all-lowercase.</string>
+    <string name="feedback_dictionary_suggestions_reversed">Reversed words aren\'t much harder to guess.</string>
+    <string name="feedback_dictionary_suggestions_l33t">Predictable substitutions like "@" instead of "a" don\'t help very much.</string>
+    <string name="feedback_spatial_warning_straightRowsOfKeys">Straight rows of keys are easy to guess.</string>
+    <string name="feedback_spatial_warning_shortKeyboardPatterns">Short keyboard patterns are easy to guess.</string>
+    <string name="feedback_spatial_suggestions_UseLongerKeyboardPattern">Use a longer keyboard pattern with more turns.</string>
+    <string name="feedback_repeat_warning_likeAAA">=Repeats like "aaa" are easy to guess.</string>
+    <string name="feedback_repeat_warning_likeABCABCABC">Repeats like "abcabcabc" are only slightly harder to guess than "abc".</string>
+    <string name="feedback_repeat_suggestions_avoidRepeatedWords">Avoid repeated words and characters.</string>
+    <string name="feedback_sequence_warning_likeABCor6543">Sequences like abc or 6543 are easy to guess.</string>
+    <string name="feedback_sequence_suggestions_avoidSequences">Avoid sequences.</string>
+    <string name="feedback_regex_warning_recentYears">Recent years are easy to guess.</string>
+    <string name="feedback_regex_suggestions_avoidRecentYears">Avoid recent years, avoid years that are associated with you.</string>
+    <string name="feedback_date_warning_dates">Dates are often easy to guess.</string>
+    <string name="feedback_date_suggestions_avoidDates">Avoid dates and years that are associated with you.</string>
+</resources>
