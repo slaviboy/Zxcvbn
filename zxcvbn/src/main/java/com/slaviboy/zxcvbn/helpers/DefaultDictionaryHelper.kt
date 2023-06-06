@@ -7,18 +7,17 @@ import java.io.IOException
 
 object DefaultDictionaryHelper {
 
-   /* private fun load(resources: Resources, defaultDictionary: DefaultDictionary): Dictionary {
+    private fun load(resources: Resources, defaultDictionary: DefaultDictionary): Dictionary {
         val words: List<String> = LoaderHelper
             .load(resources, defaultDictionary.name, defaultDictionary.fileResId)
             .split("\n")
         return Dictionary(defaultDictionary.name, words)
-    }*/
+    }
 
     private fun loadAll(
         resources: Resources
     ): List<Dictionary> {
-        return emptyList()
-        /*return arrayOf(
+        return arrayOf(
             DefaultDictionary.usTvAndFilm,
             DefaultDictionary.englishWikipedia,
             DefaultDictionary.passwords,
@@ -27,7 +26,7 @@ object DefaultDictionaryHelper {
             DefaultDictionary.femaleNames
         ).map {
             load(resources, it)
-        }*/
+        }
     }
 
     @Throws(IOException::class)
