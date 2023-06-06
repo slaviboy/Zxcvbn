@@ -4,7 +4,7 @@ object ApplicationConfiguration {
     const val minSdk = 21
     const val targetSdk = 33
     const val versionCode = 1
-    const val versionName = "0.0.4"
+    const val versionName = "0.0.1"
 
     const val appNamespace = "com.slaviboy.zxcvbnexample"
     const val libraryNamespace = "com.slaviboy.zxcvbn"
@@ -14,7 +14,7 @@ object ApplicationConfiguration {
 
     const val artifactId = "zxcvbn"
     const val groupId = "com.slaviboy.zxcvbn"
-    const val version = "0.0.4"
+    const val version = "0.0.1"
     const val name = "Kotlin Library Zxcvbn"
     const val url = "https://github.com/slaviboy"
     const val description = "Slaviboy: Kotlin Zxcvbn Library"

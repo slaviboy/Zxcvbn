@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    platforms("androidx.compose:compose-bom:2023.05.01")
+    platforms(ApplicationDependencies.composeBom)
     implementations(*ApplicationDependencies.dependenciesApp)
     projects(":zxcvbn")
 }

@@ -14,6 +14,7 @@ object ApplicationDependencies {
     private const val composeUiGraphics = "androidx.compose.ui:ui-graphics"
     private const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview"
     private const val composeUiMaterial3 = "androidx.compose.material3:material3"
+    const val composeBom = "androidx.compose:compose-bom:${ApplicationDependencyVersions.composeBom}"
 
     // Testing
     private const val junit = "junit:junit:${ApplicationDependencyVersions.junit}"

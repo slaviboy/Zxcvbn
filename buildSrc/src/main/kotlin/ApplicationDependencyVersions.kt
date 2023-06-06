@@ -8,6 +8,7 @@ object ApplicationDependencyVersions {
     const val lifecycle = "2.6.1"
     const val kotlinxSerializationJson = "1.3.2"
     const val kotlinCoroutinesCore = "1.3.9"
+    const val composeBom = "2023.05.01"
 
     // Testing
     const val junit = "4.12"
