@@ -11,7 +11,7 @@ import java.io.IOException
 
 object DefaultKeyboardHelper {
 
-    private fun load(resources: Resources, defaultKeyboard: DefaultKeyboard): Keyboard {
+    /*private fun load(resources: Resources, defaultKeyboard: DefaultKeyboard): Keyboard {
         val text: String = LoaderHelper
             .load(resources, defaultKeyboard.name, defaultKeyboard.fileResId)
         val adjacentGraphBuilder = when (defaultKeyboard) {
@@ -19,12 +19,13 @@ object DefaultKeyboardHelper {
             is AlignedKeyboard -> AlignedAdjacentGraphBuilder(text)
         }
         return Keyboard(defaultKeyboard.name, adjacentGraphBuilder)
-    }
+    }*/
 
     private fun loadAll(
         resources: Resources
     ): List<Keyboard> {
-        return arrayOf(
+        return emptyList()
+        /*return arrayOf(
             SlantedKeyboard.qwerty,
             SlantedKeyboard.dvorak,
             SlantedKeyboard.jis,
@@ -32,7 +33,7 @@ object DefaultKeyboardHelper {
             AlignedKeyboard.macKeypad
         ).map {
             load(resources, it)
-        }
+        }*/
     }
 
     @Throws(IOException::class)
