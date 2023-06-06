@@ -28,12 +28,6 @@ android {
     kotlinOptions {
         jvmTarget = "18"
     }
-    android.sourceSets.getByName("main") {
-        res.srcDirs(
-            "/src/main/res/raw/matchers/dictionaries/res",
-            "/src/main/res/raw/matchers/keyboards/res"
-        )
-    }
     testOptions.unitTests.isIncludeAndroidResources = true
 }
 
